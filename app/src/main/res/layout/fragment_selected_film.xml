@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Selected.SelectedFilmFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumb_selected"
+        android:layout_width="170dp"
+        android:layout_height="255dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/title_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/duration_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/rating_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/quality_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/genre_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
